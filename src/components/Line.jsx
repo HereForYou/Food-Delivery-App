@@ -1,4 +1,4 @@
-import footerBottom from '/assets/img/footerBottom.png'
+import footerBottom from '/assets/img/footerbottom.png'
 
 const Line = ( ) => {
     return (
