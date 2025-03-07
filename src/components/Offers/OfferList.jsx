@@ -1,4 +1,4 @@
-import OfferItem from './offersItem'
+import OfferItem from './OffersItem'
 
 import CafeImage from '/assets/img/offers/cafe.png'
 import IssoImage from '/assets/img/offers/isso.png'
