@@ -5,10 +5,10 @@ import SearchBar from "../../components/TextField/SearchTextField";
 import MenuItem from '../../components/Menu/menuItem'
 import Navbar from '../../components/Navbar/Navbar';
 
-import FoodImage from '../../../public/assets/img/menu/food.svg'
-import BeverageImage from '../../../public/assets/img/menu/beverage.svg'
-import DessertImage from '../../../public/assets/img/menu/dessert.png'
-import PromotionImage from '../../../public/assets/img/menu/promotion.png'
+import FoodImage from '/assets/img/menu/food.svg'
+import BeverageImage from '/assets/img/menu/beverage.svg'
+import DessertImage from '/assets/img/menu/dessert.png'
+import PromotionImage from '/assets/img/menu/promotion.png'
 
 const Menu = () => {
 
@@ -21,7 +21,7 @@ const Menu = () => {
         <SearchBar placeholder=" Search Food" />
       </div>
 
-      <div className="flex flex-col h-[485px] bg-no-repeat bg-contain bg-[url('../../../public/assets/img/side.svg')] " >
+      <div className="flex flex-col h-[485px] bg-no-repeat bg-contain bg-[url('/assets/img/side.svg')] " >
         <Link to='/Menu/Food'>
           <MenuItem menuImage={FoodImage} Name={'Food'} counts={120} />
         </Link>

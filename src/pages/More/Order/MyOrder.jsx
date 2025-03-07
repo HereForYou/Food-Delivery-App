@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Navbar from "../../../components/Navbar/Navbar";
-import KingBurgers from "../../../../public/assets/img/king-burgers.png";
+import KingBurgers from "/assets/img/king-burgers.png";
 import Icons from "../../../components/Icons/Icons";
 import FilledButton from "../../../components/Buttons/FilledButton";
 import { useNavigate } from "react-router";

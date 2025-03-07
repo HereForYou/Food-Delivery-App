@@ -4,7 +4,7 @@ import Icons from "../../../components/Icons/Icons";
 import Navbar from "../../../components/Navbar/Navbar";
 import BorderButton from "../../../components/Buttons/BorderButton";
 import FilledButton from "../../../components/Buttons/FilledButton";
-import visaImg from "../../../../public/assets/img/visa.png";
+import visaImg from "/assets/img/visa.png";
 import AddCardModal from "./AddCardModal";
 
 export default function PaymentDetails() {

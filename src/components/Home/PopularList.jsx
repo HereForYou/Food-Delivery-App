@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 import PopularItem from './PopularItem'
 
-import Burger from '../../../public/assets/img/popular/Burger.png'
-import bambaa from '../../../public/assets/img/popular/bambaa.png'
+import Burger from '/assets/img/popular/Burger.png'
+import bambaa from '/assets/img/popular/bambaa.png'
 const OfferList = () => {
 
     return (

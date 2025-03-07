@@ -6,10 +6,10 @@ import Navbar from "../../components/Navbar/Navbar";
 
 import DessertItem from '../../components/Menu/dessertItem'
 
-import ApplePie from '../../../public/assets/img/desserts/applePie.png'
-import Chocolate from '../../../public/assets/img/desserts/chocolate.png'
-import Shake from '../../../public/assets/img/desserts/shake.png'
-import Chewy from '../../../public/assets/img/desserts/chewy.png'
+import ApplePie from '/assets/img/desserts/applePie.png'
+import Chocolate from '/assets/img/desserts/chocolate.png'
+import Shake from '/assets/img/desserts/shake.png'
+import Chewy from '/assets/img/desserts/chewy.png'
 
 const Desserts = () => {
 

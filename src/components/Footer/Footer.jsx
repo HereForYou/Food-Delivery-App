@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import Home from "../../../public/assets/img/footer/Home.svg";
-import HomeSelected from "../../../public/assets/img/footer/home-selected.svg";
-import Down from "../../../public/assets/img/footer/down.png";
+import Home from "/assets/img/footer/Home.svg";
+import HomeSelected from "/assets/img/footer/home-selected.svg";
+import Down from "/assets/img/footer/down.png";
 import FooterItem from "./FooterItem";
 
 const Footer = ({}) => {

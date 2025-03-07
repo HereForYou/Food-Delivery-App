@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 import FilledButton from "../../components/Buttons/FilledButton";
-import Intro1 from "../../../public/assets/img/intro1.png";
-import Intro2 from "../../../public/assets/img/intro2.png";
-import Intro3 from "../../../public/assets/img/intro3.png";
+import Intro1 from "/assets/img/intro1.png";
+import Intro2 from "/assets/img/intro2.png";
+import Intro3 from "/assets/img/intro3.png";
 import { useNavigate } from "react-router";
 
 const Intro = () => {

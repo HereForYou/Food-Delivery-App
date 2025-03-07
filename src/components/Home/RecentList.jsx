@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 import RecentItem from './RecentItem'
 
-import barita from '../../../public/assets/img/recent/barita.png'
-import pizza from '../../../public/assets/img/recent/pizza.png'
-import rush from '../../../public/assets/img/recent/rush.png'
+import barita from '/assets/img/recent/barita.png'
+import pizza from '/assets/img/recent/pizza.png'
+import rush from '/assets/img/recent/rush.png'
 
 const RecentList = () => {
 

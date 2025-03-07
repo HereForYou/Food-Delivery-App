@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import FilledButton from  '../../../components/Buttons/FilledButton';
-import purseImg from '../../../../public/assets/img/purse.png';
+import purseImg from '/assets/img/purse.png';
 import { useNavigate } from 'react-router-dom';
 
 export default function CompletePay({isShow, setIsShow}) {

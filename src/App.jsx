@@ -5,7 +5,6 @@ import IconsRef from "./components/Icons/IconsRef";
  
 
 import StatusBar from "./components/Navbar/StatusBar";
-import Navbar from "./components/Navbar/Navbar";
 import Profile from "./pages/Profile/Profile";
 
 import Dashboard from "./pages/Dashboard";
@@ -35,7 +34,7 @@ import ChangeAddress from "./pages/More/Order/ChangeAddress";
 import FoodDetail from "./pages/Menu/FoodDetail";
 const App = () => {
   return (
-    <div className="w-[100%] min-w-[280px] bg-white h-auto">
+    <div className="w-[100%] max-w-[480px] min-w-[280px] bg-white h-auto m-auto">
       <StatusBar/>
       <BrowserRouter>
         <Routes>

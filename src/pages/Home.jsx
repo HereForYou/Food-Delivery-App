@@ -5,7 +5,7 @@ import Logo from '../components/Logo'
 import Login from '../components/Buttons/FilledButton'
 import SignUP from '../components/Buttons/BorderButton'
 
-import upImage from '../../public/assets/img/up.png'
+import upImage from '/assets/img/up.png'
 
 const Home = () => {
   const navigate = useNavigate()

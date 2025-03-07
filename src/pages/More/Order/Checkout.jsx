@@ -1,6 +1,6 @@
 import Navbar from "../../../components/Navbar/Navbar";
-import visa from "../../../../public/assets/img/visa-payment.png";
-import emailPayment from "../../../../public/assets/img/payment-email.png";
+import visa from "/assets/img/visa-payment.png";
+import emailPayment from "/assets/img/payment-email.png";
 import FilledButton from "../../../components/Buttons/FilledButton";
 import Footer from "../../../components/Footer/Footer";
 import { useState } from "react";

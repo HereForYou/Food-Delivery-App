@@ -92,7 +92,7 @@ const Login = () => {
         <LoginGoogle />
       </div>
       <p className="text-sm mt-[83px] text-secondary">
-        Don't have an Account?{" "}
+        Don&apos;t have an Account?{" "}
         <Link to="/auth/signup" className="font-bold text-main">Sign Up</Link>
       </p>
       <div className="absolute bottom-3 w-[119px] border-[2.5px] rounded-full border-primary" />

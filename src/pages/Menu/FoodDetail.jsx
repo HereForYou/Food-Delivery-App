@@ -4,7 +4,7 @@ import BorderButton from '../../components/Buttons/BorderButton'
 import { useNavigate } from 'react-router-dom';
 import StarRating from '../../components/StarRating';
 import Icons from '../../components/Icons/Icons';
-import pizzaImg from '../../../public/assets/img/menu/pizza.png'
+import pizzaImg from '/assets/img/menu/pizza.png'
 import StatusBar from '../../components/Navbar/StatusBar';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';

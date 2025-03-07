@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import antena from "../../../public/assets/img/status-navbar/antena.png";
-import baterry from "../../../public/assets/img/status-navbar/battery.png";
-import wifi from "../../../public/assets/img/status-navbar/wifi.png";
-import antenaWhite from "../../../public/assets/img/status-navbar/antena-white.svg";
-import baterryWhite from "../../../public/assets/img/status-navbar/battery-white.svg";
-import wifiWhite from "../../../public/assets/img/status-navbar/wifi-white.svg";
+import antena from "/assets/img/status-navbar/antena.png";
+import baterry from "/assets/img/status-navbar/battery.png";
+import wifi from "/assets/img/status-navbar/wifi.png";
+import antenaWhite from "/assets/img/status-navbar/antena-white.svg";
+import baterryWhite from "/assets/img/status-navbar/battery-white.svg";
+import wifiWhite from "/assets/img/status-navbar/wifi-white.svg";
 
 const StatusBar = () => {
   const [isWhite, setIsWhite] = useState(false);

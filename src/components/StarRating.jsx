@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
-import StarFill from '../../public/assets/img/star-fill.svg'
-import StarOutline from '../../public/assets/img/star-outline.svg'
+import StarFill from '/assets/img/star-fill.svg'
+import StarOutline from '/assets/img/star-outline.svg'
 
 const StarRating = (props) => {
     const { value, setValue } = props;

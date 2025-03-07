@@ -1,7 +1,7 @@
 import React from "react";
 import Icons from '../Icons/Icons'
 
-import NextOk from '../../../public/assets/img/menu/ok.svg'
+import NextOk from '/assets/img/menu/ok.svg'
 const MenuItem = (props) => {
   const { menuImage, Name, counts} = props;
   return (

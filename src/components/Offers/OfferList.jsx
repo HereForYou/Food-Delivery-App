@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 import OfferItem from './offersItem'
 
-import CafeImage from '../../../public/assets/img/offers/cafe.png'
-import IssoImage from '../../../public/assets/img/offers/isso.png'
-import BeanImage from '../../../public/assets/img/offers/bean.png'
+import CafeImage from '/assets/img/offers/cafe.png'
+import IssoImage from '/assets/img/offers/isso.png'
+import BeanImage from '/assets/img/offers/bean.png'
 
 const OfferList = () => {
 

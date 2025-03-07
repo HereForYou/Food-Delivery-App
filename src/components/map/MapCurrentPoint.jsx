@@ -1,4 +1,4 @@
-import CurrentPoint from "../../../public/assets/img/map/map-current-point.svg";
+import CurrentPoint from "/assets/img/map/map-current-point.svg";
 
 const MapCurrentPoint = (props) => {
   const { top, left } = props;

@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <>  
-      <div className="py-[380px] bg-[url(../../../public/assets/backImage.png)]" >
+      <div className="py-[380px] bg-[url(/assets/backImage.png)]" >
           <Logo  />
       </div>
     </>
