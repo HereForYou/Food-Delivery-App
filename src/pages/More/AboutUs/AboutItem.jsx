@@ -1,4 +1,5 @@
 const AboutItem = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { content } = props;
   return (
     <div className="flex items-start gap-2">

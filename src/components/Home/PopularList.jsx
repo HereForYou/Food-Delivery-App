@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import PopularItem from './PopularItem'
 
 import Burger from '/assets/img/popular/Burger.png'

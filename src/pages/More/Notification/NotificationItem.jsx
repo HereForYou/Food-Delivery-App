@@ -1,4 +1,5 @@
 const NotificationItem = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { content, time } = props;
   return (
     <div className="flex flex-col justify-between px-[22px] pt-[14px] h-[64px] hover:bg-[#f6f6f6]">

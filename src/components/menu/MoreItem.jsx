@@ -1,8 +1,8 @@
-import React from 'react'
 import Icons from '../Icons/Icons'
 import { useNavigate } from 'react-router';
 
 
+// eslint-disable-next-line react/prop-types
 export default function MoreItem({children, iconType, iconColor, linkTo}) {
   const navigate = useNavigate();
   return (

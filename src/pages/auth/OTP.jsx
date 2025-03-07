@@ -41,7 +41,7 @@ const OTP = () => {
         <FilledButton onClick={handleNextClick}>Next</FilledButton>
       </div>
       <p className="text-sm mt-8 text-secondary">
-        Didn't Receive?{" "} 
+        Didn&apos;t Receive?{" "} 
         <Link to="/auth/login/resetpassword" className="font-bold text-main">Click Here</Link>
       </p>
       <div className="absolute bottom-3 w-[119px] border-[2.5px] rounded-full border-primary" />

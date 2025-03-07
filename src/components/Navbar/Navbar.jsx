@@ -3,6 +3,7 @@ import { useNavigate } from "react-router";
 import Icons from "../Icons/Icons";
 
 const Navbar = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { back, shop } = props;
   const navigate = useNavigate();
   const onHandlePreviousClick = () => {
@@ -20,6 +21,7 @@ const Navbar = (props) => {
           ""
         )}
         <span className="text-2xl text-primary font-semibold capitalize">
+          {/* eslint-disable-next-line react/prop-types */}
           {props.text}
         </span>
       </div>

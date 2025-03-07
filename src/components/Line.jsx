@@ -1,4 +1,3 @@
- 
 import footerBottom from '/assets/img/footerBottom.png'
 
 const Line = ( ) => {

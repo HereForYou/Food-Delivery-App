@@ -1,7 +1,7 @@
-import React from "react";
 import Icons from '../Icons/Icons'
 
 const OffersItem = (props) => {
+    // eslint-disable-next-line react/prop-types
     const { title, image, subtitle, rate, product } = props;
     return (
         <div className='relative '>

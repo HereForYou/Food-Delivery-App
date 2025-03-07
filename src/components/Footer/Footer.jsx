@@ -6,12 +6,12 @@ import HomeSelected from "/assets/img/footer/home-selected.svg";
 import Down from "/assets/img/footer/down.png";
 import FooterItem from "./FooterItem";
 
-const Footer = ({}) => {
+const Footer = () => {
   const [path, setPath] = useState("");
 
   useEffect(() => {
     setPath(window.location.pathname);
-  });
+  },[]);
   return (
     <>
       <footer className="fixed bottom-0 w-[100%] left-0">

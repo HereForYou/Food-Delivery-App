@@ -3,6 +3,7 @@ import Icons from "../../../components/Icons/Icons";
 
 const InboxItem = (props) => {
   const [like, setLike] = useState(false);
+  // eslint-disable-next-line react/prop-types
   const { title, content, time } = props;
   return (
     <div className="flex items-start justify-between gap-[5px] pt-[14px] h-[88px] border-b-1px border-[#eeeeee]">

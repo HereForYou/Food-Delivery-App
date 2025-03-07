@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const Icon = ({ label, image }) => {
   return (
     <div className="flex flex-col    ">

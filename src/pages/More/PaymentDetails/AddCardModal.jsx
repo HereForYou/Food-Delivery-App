@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import FilledButton from  '../../../components/Buttons/FilledButton';
 import TextField from '../../../components/TextField/TextField';
 import Icons from '../../../components/Icons/Icons';
-import { useSearchParams } from 'react-router-dom';
 
+// eslint-disable-next-line react/prop-types
 export default function AddCardModal({isShow, setIsShow}) {
-  const handleToggleBtn = () => {
-    
-  }
   const handleAddCard = () => {
 
   }
@@ -55,7 +52,7 @@ export default function AddCardModal({isShow, setIsShow}) {
           </div>
         </div>
         <div className='py-[38px]'>
-          <FilledButton onClick={(e) => handleAddCard}>
+          <FilledButton onClick={() => handleAddCard}>
               <div className='flex items-center justify-center relative'>
                 <div className='absolute left-[73px]'><Icons type='plus' color='gray' /></div> Add Card
               </div>

@@ -1,8 +1,8 @@
-import React from "react";
 import Icons from '../Icons/Icons'
 
 const PopularItem = (props) => {
-  const { title, image, subtitle, rate } = props;
+  // eslint-disable-next-line react/prop-types
+  const { title, image, rate } = props;
   return (
     <div className="pt-[22px]">
       <div className="flex flex-col w-[180px] " >

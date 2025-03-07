@@ -1,7 +1,7 @@
-import React from "react";
 import facebook from '/assets/img/auth/facebook-letter-logo.png'
 
 const LoginFacebook = (props) => {
+    // eslint-disable-next-line react/prop-types
     const { onClick } = props
   return (
     <div>

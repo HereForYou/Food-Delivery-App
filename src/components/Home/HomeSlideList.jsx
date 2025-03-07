@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import HomeSlideItem from './HomeSlideItem'
 
 import ham from '/assets/img/slide/ham.png'

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import avatar from "/assets/img/profile-avatar.png";
 import TextField from "../../components/TextField/TextField";

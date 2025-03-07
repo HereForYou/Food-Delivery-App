@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import OfferItem from './offersItem'
 
 import CafeImage from '/assets/img/offers/cafe.png'

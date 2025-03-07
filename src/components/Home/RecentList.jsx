@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 import RecentItem from './RecentItem'
 
 import barita from '/assets/img/recent/barita.png'

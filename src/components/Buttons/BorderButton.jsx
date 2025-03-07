@@ -1,6 +1,5 @@
-import React from "react";
-
 const Button = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { children, onClick } = props;
   return (
     <div>

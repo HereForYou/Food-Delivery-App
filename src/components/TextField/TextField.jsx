@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 const TextField = (props) => {
@@ -6,7 +5,9 @@ const TextField = (props) => {
     name,
     type,
     placeholder,
+    // eslint-disable-next-line react/prop-types
     disable,
+    // eslint-disable-next-line react/prop-types
     autoFocus,
     error,
     value,
@@ -36,6 +37,7 @@ const TextField = (props) => {
           style={{
             border: error === "" || error === undefined ? "" : "1px solid red",
           }}
+          // eslint-disable-next-line react/no-unknown-property
           error={error}
           disabled={disable}
           value={value}

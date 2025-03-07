@@ -12,7 +12,7 @@ const ChangeAddress = () => {
       <div className="px-[21px] pb-[44px] w-[100%]">
         <Navbar back="true" text="Change Address" />
       </div>
-      <div className="relative h-[525px] w-[100%] bg-[url('./assets/img/map/map.png')]">
+      <div className="relative h-[525px] w-[100%] bg-[url('/assets/img/map/map.png')]">
         <div className="absolute top-[186px] left-[29px]">
           <div className="relative">
             <img src={speech} />

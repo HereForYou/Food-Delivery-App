@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import SearchBar from "../components/TextField/SearchTextField";
 import Navbar from '../components/Navbar/Navbar';

@@ -24,7 +24,7 @@ const ButtonShow = () => {
             <LoginFacebook/>
             <LoginGoogle/><br/>
             <TextField value={text} onChange={handleChange}/>
-            <p>TextField Mannual: This has 5 props. name: the name of TextField, type: type of TextField (default type is "text".), placeholder: means placeholder (default placeholder is "Text Field"), value: value of TextField, onChange: this is function to change the value of TextField</p><br/>
+            <p>TextField Mannual: This has 5 props. name: the name of TextField, type: type of TextField (default type is &quot;text&quot;.), placeholder: means placeholder (default placeholder is &quot;Text Field&quot;), value: value of TextField, onChange: this is function to change the value of TextField</p><br/>
             <StarRating value={rate} setValue={setRate} />
             <p>StarRating Mannual: You can set the value by using value props and you have to pass the function of changing the value by using setValue props.</p>
             <MapCurrentPoint top="600px"/>

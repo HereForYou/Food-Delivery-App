@@ -1,24 +1,15 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import FilledButton from  '../../components/Buttons/FilledButton';
 import BorderButton from '../../components/Buttons/BorderButton'
-import { useNavigate } from 'react-router-dom';
 import StarRating from '../../components/StarRating';
 import Icons from '../../components/Icons/Icons';
-import pizzaImg from '/assets/img/menu/pizza.png'
 import StatusBar from '../../components/Navbar/StatusBar';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
-export default function FoodDetail({isShow, setIsShow}) {
-  const navigate = useNavigate()
+export default function FoodDetail() {
   const [rate, setRate] = useState(0)
   const [portionNum, setPortionNum] = useState(0)
-  const handleToggleBtn = () => {
-    
-  }
-  const handleAddCard = () => {
-
-  }
 
   return (
     <div className={`w-[100%] relative pt-[308px]`}>

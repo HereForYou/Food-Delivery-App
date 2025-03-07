@@ -1,4 +1,5 @@
 const RadioButton = (props) => {
+    // eslint-disable-next-line react/prop-types
     const {name} = props
   return (
     <div className="relative flex justify-center w-[14px] h-[14px] items-center">

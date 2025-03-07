@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import StarFill from '/assets/img/star-fill.svg'
 import StarOutline from '/assets/img/star-outline.svg'
 
 const StarRating = (props) => {
+    // eslint-disable-next-line react/prop-types
     const { value, setValue } = props;
 
     const handleChange = (paramValue) => {

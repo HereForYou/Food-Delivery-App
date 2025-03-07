@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const Titie = (  {titileName,vAll} ) => {
 
     return (

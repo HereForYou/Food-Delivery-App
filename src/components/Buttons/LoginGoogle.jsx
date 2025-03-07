@@ -1,7 +1,7 @@
-import React from "react";
 import google from '/assets/img/auth/google-plus-logo.png'
 
 const LoginGoogle = (props) => {
+    // eslint-disable-next-line react/prop-types
     const { onClick } = props
   return (
     <div>

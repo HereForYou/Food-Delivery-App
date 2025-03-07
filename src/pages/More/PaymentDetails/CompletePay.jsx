@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
 import FilledButton from  '../../../components/Buttons/FilledButton';
 import purseImg from '/assets/img/purse.png';
 import { useNavigate } from 'react-router-dom';
 
-export default function CompletePay({isShow, setIsShow}) {
+// eslint-disable-next-line react/prop-types
+export default function CompletePay({isShow}) {
   const navigate = useNavigate()
-  const handleToggleBtn = () => {
-    
-  }
   const handleAddCard = () => {
 
   }
@@ -24,7 +21,7 @@ export default function CompletePay({isShow, setIsShow}) {
         </div>
         <div className='text-icongray-50 text-sm text-center'>Your Order is now being processed. We will let you know once the order is picked from the outlet. Check the status of your Order</div>
         <div className='flex flex-col justify-between gap-[17px] pt-[34px] pb-[50px] items-stretch'>
-          <FilledButton onClick={(e) => handleAddCard}>
+          <FilledButton onClick={() => handleAddCard}>
             Track My Order
           </FilledButton>
           <div className='text-icongray-50 text-base font-bold flex justify-center' onClick={()=>navigate("/dashboard")}>Back To Home</div>

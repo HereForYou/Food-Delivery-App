@@ -1,8 +1,6 @@
-import React from "react";
-import Icons from '../Icons/Icons'
-
 import NextOk from '/assets/img/menu/ok.svg'
 const MenuItem = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { menuImage, Name, counts} = props;
   return (
     <div className="flex  columns-3 py-[14px] ">
